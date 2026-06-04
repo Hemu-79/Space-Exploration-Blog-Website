@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beyond Earth | Space Exploration Blog</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- ================= ANIMATED BACKGROUNDS ================= -->
+    <div class="animated-bg"></div>
+    <div class="nebula"></div>
+    <div class="particles"></div>
+
+    <!-- ================= STAR BACKGROUND ================= -->
+    <div class="stars">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <!-- ================= FLOATING PLANETS ANIMATION ================= -->
+    <div class="floating-planets-container" id="floatingPlanets">
+      <div class="floating-planet planet-1">🪐</div>
+      <div class="floating-planet planet-2">🔴</div>
+      <div class="floating-planet planet-3">🟡</div>
+      <div class="floating-planet planet-4">⭐</div>
+    </div>
+
+    <!-- ================= HEADER / NAVBAR ================= -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">🚀 Beyond Earth</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#missions">Missions</a></li>
+          <li><a href="#videos">Videos</a></li>
+          <li><a href="#planets">Planets</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- ================= HERO SECTION ================= -->
+    <section id="home" class="hero section-trigger">
+      <div class="hero-content">
+        <h1>Exploring the Universe</h1>
+        <p>
+          Discover space missions, planets, and cosmic mysteries beyond Earth
+        </p>
+        <a href="#missions" class="btn">Start Exploring</a>
+      </div>
+      <div class="scroll-indicator">↓</div>
+    </section>
+
+    <!-- ================= FEATURED MISSIONS ================= -->
+    <section id="missions" class="missions section-trigger">
+      <h2>Featured Space Missions</h2>
+      <p class="section-subtitle">
+        Historic and ongoing missions that changed our understanding of space
+      </p>
+
+      <div class="mission-cards">
+        <article class="card">
+          <img
+            src="https://images.unsplash.com/photo-1614728263952-84ea256f9679?w=800&h=600&fit=crop"
+            alt="Apollo 11 mission"
+          />
+          <div class="card-content">
+            <h3>Apollo 11</h3>
+            <p>The first human mission to land on the Moon in 1969.</p>
+            <a href="#" class="card-link">Read More →</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img
+            src="https://images.unsplash.com/photo-1614313913007-2b4ae8ce32d6?w=800&h=600&fit=crop"
+            alt="Mars Rover mission"
+          />
+          <div class="card-content">
+            <h3>Mars Rover</h3>
+            <p>Exploring the surface of the red planet for signs of life.</p>
+            <a href="#" class="card-link">Read More →</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img
+            src="https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?w=800&h=600&fit=crop"
+            alt="James Webb Space Telescope"
+          />
+          <div class="card-content">
+            <h3>James Webb Telescope</h3>
+            <p>Unveiling the deepest secrets of the universe.</p>
+            <a href="#" class="card-link">Read More →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= SPACE VIDEOS ================= -->
+    <section id="videos" class="videos section-trigger">
+      <h2>Space Exploration Videos</h2>
+      <p class="section-subtitle">
+        Watch the most stunning space missions and discoveries
+      </p>
+
+      <div class="video-grid">
+        <div class="video-card">
+          <iframe
+            src="https://www.youtube.com/embed/WeA7edXsU40"
+            title="Space Exploration"
+            frameborder="0"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+            "
+            allowfullscreen
+          ></iframe>
+          <h3>Journey Through Space</h3>
+        </div>
+
+        <div class="video-card">
+          <iframe
+            src="https://www.youtube.com/embed/G2u5_n-gAB0"
+            title="Mars Mission"
+            frameborder="0"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+            "
+            allowfullscreen
+          ></iframe>
+          <h3>Mars Exploration</h3>
+        </div>
+
+        <div class="video-card">
+          <iframe
+            src="https://www.youtube.com/embed/1khghXRGb6k"
+            title="ISS Tour"
+            frameborder="0"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+            "
+            allowfullscreen
+          ></iframe>
+          <h3>International Space Station</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PLANETS SECTION ================= -->
+    <section id="planets" class="planets section-trigger">
+      <h2>Our Solar System</h2>
+      <p class="section-subtitle">
+        Explore the celestial bodies in our cosmic neighborhood
+      </p>
+
+      <div class="planet-grid">
+        <div class="planet-card">
+          <img
+            src="https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=400&h=400&fit=crop"
+            alt="Planet Earth"
+          />
+          <div class="planet-info">
+            <h3>Earth</h3>
+            <p>Our beautiful home planet</p>
+          </div>
+        </div>
+
+        <div class="planet-card">
+          <img
+            src="https://images.unsplash.com/photo-1614732414444-096e5f1122d5?w=400&h=400&fit=crop"
+            alt="Planet Mars"
+          />
+          <div class="planet-info">
+            <h3>Mars</h3>
+            <p>The red planet</p>
+          </div>
+        </div>
+
+        <div class="planet-card">
+          <img
+            src="https://images.unsplash.com/photo-1614313278665-1da4e8ea6edb?w=400&h=400&fit=crop"
+            alt="Planet Jupiter"
+          />
+          <div class="planet-info">
+            <h3>Jupiter</h3>
+            <p>The largest planet</p>
+          </div>
+        </div>
+
+        <div class="planet-card">
+          <img
+            src="https://images.unsplash.com/photo-1614732484003-ef9881555dc3?w=400&h=400&fit=crop"
+            alt="Planet Saturn"
+          />
+          <div class="planet-info">
+            <h3>Saturn</h3>
+            <p>Lord of the rings</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SPACE NEWS ================= -->
+    <section id="news" class="news section-trigger">
+      <h2>Latest Space News</h2>
+      <p class="section-subtitle">
+        Stay updated with the latest discoveries and missions
+      </p>
+
+      <div class="news-grid">
+        <article class="news-card">
+          <img
+            src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=600&h=400&fit=crop"
+            alt="Space news"
+          />
+          <div class="news-content">
+            <span class="date">Jan 15, 2026</span>
+            <h3>NASA Announces New Moon Mission</h3>
+            <p>
+              NASA plans a new lunar exploration under the Artemis program with
+              first crewed landing expected in 2025.
+            </p>
+            <a href="#" class="read-more">Read Full Article →</a>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <img
+            src="https://images.unsplash.com/photo-1462332420958-a05d1e002413?w=600&h=400&fit=crop"
+            alt="Exoplanet discovery"
+          />
+          <div class="news-content">
+            <span class="date">Dec 28, 2025</span>
+            <h3>New Exoplanet Discovered in Habitable Zone</h3>
+            <p>
+              A potentially habitable planet found 40 light-years away from
+              Earth showing signs of water vapor.
+            </p>
+            <a href="#" class="read-more">Read Full Article →</a>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <img
+            src="https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=600&h=400&fit=crop"
+            alt="Space technology"
+          />
+          <div class="news-content">
+            <span class="date">Dec 10, 2025</span>
+            <h3>SpaceX Starship Completes Successful Test Flight</h3>
+            <p>
+              The largest rocket ever built successfully completed its orbital
+              test flight, marking a milestone in space travel.
+            </p>
+            <a href="#" class="read-more">Read Full Article →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="about section-trigger">
+      <div class="about-content">
+        <h2>About This Blog</h2>
+        <p>
+          Beyond Earth is a space exploration blog dedicated to sharing
+          knowledge about space missions, planets, and the wonders of the
+          universe. We bring you the latest news, stunning visuals, and in-depth
+          articles about humanity's journey into the cosmos.
+        </p>
+        <blockquote>
+          "Somewhere, something incredible is waiting to be known." – Carl Sagan
+        </blockquote>
+      </div>
+      <div class="about-image">
+        <img
+          src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=600&fit=crop"
+          alt="Earth from space"
+        />
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="contact section-trigger">
+      <h2>Get In Touch</h2>
+      <p class="section-subtitle">
+        Have questions or want to collaborate? Reach out to us!
+      </p>
+
+      <div class="contact-container">
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <input type="text" placeholder="Subject" required />
+          <textarea placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+          <div class="info-item">
+            <h3>📧 Email</h3>
+            <p>contact@beyondearth.space</p>
+          </div>
+          <div class="info-item">
+            <h3>🌍 Follow Us</h3>
+            <p>@BeyondEarthBlog</p>
+          </div>
+          <div class="info-item">
+            <h3>📍 Location</h3>
+            <p>Worldwide</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Beyond Earth</h3>
+          <p>Exploring the cosmos, one discovery at a time.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <a href="#missions">Missions</a>
+          <a href="#videos">Videos</a>
+          <a href="#planets">Planets</a>
+          <a href="#news">News</a>
+        </div>
+        <div class="footer-section">
+          <h3>Connect</h3>
+          <a href="#">Twitter</a>
+          <a href="#">Instagram</a>
+          <a href="#">YouTube</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Beyond Earth. Made with ❤️ & stardust.</p>
+      </div>
+    </footer>
+
+    <script>
+      // Intersection Observer for triggering planet animation on section entry
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              triggerPlanetAnimation();
+            }
+          });
+        },
+        { threshold: 0.3 },
+      );
+
+      // Observe all sections with class 'section-trigger'
+      document.querySelectorAll(".section-trigger").forEach((section) => {
+        observer.observe(section);
+      });
+
+      function triggerPlanetAnimation() {
+        const container = document.getElementById("floatingPlanets");
+        container.classList.add("animate-planets");
+
+        // Remove animation class after animation completes
+        setTimeout(() => {
+          container.classList.remove("animate-planets");
+        }, 3000);
+      }
+    </script>
+  </body>
+</html>
